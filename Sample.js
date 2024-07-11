@@ -1,20 +1,12 @@
 console.log("Hello World");
-let massMark = 78;
-let massJohn = 92;
-let heightMark = 1.69;
-let heightJohn = 1.95;
-let BMIMark = massMark / (heightMark * heightMark);
-let BMIJohn = massJohn / (heightJohn * heightJohn);
-console.log(BMIMark);
-console.log(BMIJohn);
 
 
-const js = 'vysha';
+/*const js = 'vysha';
 console.log(Number(js));
-
 const js1 = 2.31;
 console.log(js + js1);
-console.log(typeof 3.14);
+console.log(typeof 3.14);//type of is used to which data type the given value belongs to
+// example for if else statement
 var a = 10;
 var a = 20;
 if (a = 100) {
@@ -32,10 +24,25 @@ NewCre(); //This is called calling/running/invoking the function, if we donot ca
 // Function with parameters
 function paramete(ten, Two) {
     console.log(ten, Two);
-    let naum = 'First Value is ${ten} ten and second value is ${Two} Two';
-    return paramete;
+    const naum = `First Value is ${ten} ten and second value is ${Two} Two`;
+    return naum;
 
 }
-let numvalue = paramete(10, 20);
-//const numvalue = paramete(10, 20);
-console.log(numvalue);
+const numvalue = paramete(10, 20);
+console.log(numvalue);*/
+
+//Funcion declaration and expressiion
+function Age(birthyear) {
+    agev = 2024 - birthyear;
+    return (agev)
+}
+let value = Age(2000);
+console.log(value);
+
+const age1 = function (birthyear) {//function expression :> writing the function without function name and declaring it to a variable age1 and  age1 acts as function name
+    return 2024 - birthyear;
+}
+const value1 = age1(1998);
+console.log(value1);
+
+
