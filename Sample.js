@@ -6,6 +6,8 @@ console.log(Number(js));
 const js1 = 2.31;
 console.log(js + js1);
 console.log(typeof 3.14);//type of is used to which data type the given value belongs to
+
+
 // example for if else statement
 var a = 10;
 var a = 20;
@@ -16,11 +18,14 @@ if (a = 100) {
 }
 console.log(a);
 
+
+
 // Function
 function NewCre() { //NewCre is function body
     console.log("Hi i am inside the function");
 }
 NewCre(); //This is called calling/running/invoking the function, if we donot call this function means the code presnt in func body will not be executed
+
 // Function with parameters
 function paramete(ten, Two) {
     console.log(ten, Two);
